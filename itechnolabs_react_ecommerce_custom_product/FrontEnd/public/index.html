@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <!--
+      manifest.json provides metadata used when your web app is added to the
+      homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <!-- <link rel="icon" href="./fav-icon.png"> -->
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <!--CSS-->
+
+    <style>
+
+body {
+  background: rgb(103, 66, 230);
+  background: linear-gradient(
+    135deg,
+    rgba(103, 66, 230, 1) 35%,
+    rgba(114, 68, 237, 1) 100%
+  );
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial,
+    sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+}
+
+.error-image {
+  max-width: 720px;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+.error-image h1 {
+  font-size: 120px;
+  margin: 48px auto 20px;
+}
+
+.error-msg-container {
+  margin: 18px auto 30px auto;
+  max-width: 800px;
+  width: 80%;
+  text-align: center;
+}
+
+.error-msg-container h1 {
+  font-size: 56px;
+  max-width: 560px;
+  margin: auto auto 48px;
+}
+
+    </style>
+    <link rel="stylesheet" href="%PUBLIC_URL%/css/bootstrap.min.css">
+    <link rel="stylesheet" href="%PUBLIC_URL%/css/style.css">
+    <link rel="stylesheet" href="%PUBLIC_URL%/css/font-awesome.min.css">
+    <link rel="stylesheet" href="%PUBLIC_URL%/css/media.css">
+    <link rel="stylesheet" href="%PUBLIC_URL%/css/slick.css">
+    <link rel="stylesheet" href="%PUBLIC_URL%/css/slick-theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Dancing+Script:wght@500&family=Great+Vibes&family=Lobster&family=Lobster+Two&family=Pacifico&family=Passion+One&family=Playfair+Display:wght@500&family=Roboto:wght@500&family=Satisfy&family=Srisakdi:wght@700&display=swap" rel="stylesheet">
+    <script src="%PUBLIC_URL%/js/jquery.min.js"></script>
+    <title>VOX</title>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-WLB46WB');
+      </script>
+   
+<script>
+  "use strict";
+  
+  !function() {
+    var t = window.driftt = window.drift = window.driftt || [];
+    if (!t.init) {
+      if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+      t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+      t.factory = function(e) {
+        return function() {
+          var n = Array.prototype.slice.call(arguments);
+          return n.unshift(e), t.push(n), t;
+        };
+      }, t.methods.forEach(function(e) {
+        t[e] = t.factory(e);
+      }), t.load = function(t) {
+        var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+        o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+        var i = document.getElementsByTagName("script")[0];
+        i.parentNode.insertBefore(o, i);
+      };
+    }
+  }();
+  drift.SNIPPET_VERSION = '0.3.1';
+  //drift.load('fb2sdg3fwvz8');
+  </script>
+  <!-- End of Async Drift Code -->
+
+        
+  </head>
+  <body>
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+    <div id="root1"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+    
+     <!-- Js files -->
+     <script src="%PUBLIC_URL%/js/bootstrap.min.js"></script>
+     <script src="%PUBLIC_URL%/js/jquery.min.js"></script>
+     <!-- <script src="%PUBLIC_URL%/js/jquery.smartmenus.min.js"></script> -->
+     <script src="%PUBLIC_URL%/js/slick.min.js"></script>
+     <!-- <script>
+        // SmartMenus init
+        $(function() {
+          $('#main-menu').smartmenus({
+            mainMenuSubOffsetX: -1,
+            mainMenuSubOffsetY: 4,
+            subMenusSubOffsetX: 6,
+            subMenusSubOffsetY: -6
+          });
+        });
+        
+        // SmartMenus mobile menu toggle button
+        $(function() {
+          var $mainMenuState = $('#main-menu-state');
+          if ($mainMenuState.length) {
+            // animate mobile menu
+            $mainMenuState.change(function(e) {
+              var $menu = $('#main-menu');
+              if (this.checked) {
+                $menu.hide().slideDown(250, function() { $menu.css('display', ''); });
+              } else {
+                $menu.show().slideUp(250, function() { $menu.css('display', ''); });
+              }
+            });
+            // hide mobile menu beforeunload
+            $(window).bind('beforeunload unload', function() {
+              if ($mainMenuState[0].checked) {
+                $mainMenuState[0].click();
+              }
+            });
+          }
+        });
+               
+     </script> -->
+     <script>
+        // Add active class to the current button (highlight it)
+        var header = document.getElementById("myDIV");
+        if(header){
+          var btns = header.getElementsByClassName("btn");
+          for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function() {
+            var current = document.getElementsByClassName("active");
+            current[0].className = current[0].className.replace(" active", "");
+            this.className += " active";
+            });
+          }
+        }
+        
+     </script>
+
+     <!-- Google Tag Manager (noscript) -->
+     
+      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WLB46WB"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+        <script src="js-image-zoom.js"></script>
+      <!-- End Google Tag Manager (noscript) -->
+  <!-- <script src="%PUBLIC_URL%/js/drift.js"></script> -->
+  <!-- End of Async Drift Code -->
+  </body>
+</html>

@@ -1,0 +1,104 @@
+[
+  {
+    "category_name": "Apparel",
+    "sub_categories": [
+      {
+        "subcategory_name": "Fitness",
+        "gender": ["Women", "Men"]
+      },
+      {
+        "subcategory_name": "Quarter Zips",
+        "gender": ["Women", "Men"]
+      },
+      {
+        "subcategory_name": "T-Shirts",
+        "gender": ["Women", "Men"]
+      },
+      {
+        "subcategory_name": "Hoodies",
+        "gender": ["Women", "Men"]
+      },
+      {
+        "subcategory_name": "Hats",
+        "gender": ["Women", "Men"]
+      },
+      {
+        "subcategory_name": "Polos",
+        "gender": ["Women", "Men"]
+      },
+      {
+        "subcategory_name": "Jackets",
+        "gender": ["Women", "Men"]
+      }
+    ],
+    "category_image": "https://www.ssactivewear.com/p/alstyle/1301"
+  },
+  {
+    "category_name": "Health/PPE",
+    "sub_categories": [
+      {
+        "subcategory_name": "Masks",
+        "gender": ["Women", "Men"]
+      },
+      {
+        "subcategory_name": "Clean keys",
+        "gender": []
+      },
+      {
+        "subcategory_name": "Sanitizer",
+        "gender": []
+      }
+    ],
+    "category_image": "https://www.ssactivewear.com/p/bayside/1941"
+  },
+  {
+    "category_name": "Bags",
+    "sub_categories": [
+      {
+        "subcategory_name": "Backpacks",
+        "gender": ["Women", "Men"]
+      },
+      {
+        "subcategory_name": "Drawstrings",
+        "gender": []
+      },
+      {
+        "subcategory_name": "Totes",
+        "gender": []
+      }
+    ],
+    "category_image": "https://www.sanmar.com/p/7184_Navy"
+  },
+  {
+    "category_name": "Drinkware",
+    "sub_categories": [
+      {
+        "subcategory_name": "Mugs",
+        "gender": []
+      },
+      {
+        "subcategory_name": "Tumblers",
+        "gender": []
+      },
+      {
+        "subcategory_name": "Water Bottles",
+        "gender": []
+      }
+    ],
+    "category_image": "https://www.pcna.com/leeds/en-us/leeds-drinkware-sportbottles/product/1625-61_reg"
+  },
+  {
+    "category_name": "Office",
+    "sub_categories": [
+      {
+        "subcategory_name": "Journals",
+        "gender": []
+      },
+      {
+        "subcategory_name": "Pens",
+        "gender": []
+      }
+    ],
+    "category_image": "https://www.pcna.com/leeds/en-us/leeds-office-journalbooksnotebooks/product/1921-12_reg"
+  }
+]

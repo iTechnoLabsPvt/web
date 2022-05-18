@@ -1,0 +1,1 @@
+export const GET_SHIPMENT_RATE = "GET_SHIPMENT_RATE";

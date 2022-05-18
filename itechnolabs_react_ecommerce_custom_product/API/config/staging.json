@@ -1,0 +1,65 @@
+{
+  "app": {
+    "name": "vox_neol",
+    "host": "0.0.0.0",
+    "port": 3014,
+    "socket": 3014,
+    "debug": true,
+    "logLevel": "debug",
+    "jwtAlgo": "HS512",
+    "jwtKey": "vox_neol"
+  },
+  "db": {
+    "name": "vox_neol",
+    "host": "127.0.0.1",
+    "auth": false,
+    "username": "",
+    "password": "",
+    "port": 27017,
+    "mongoose": {
+      "useNewUrlParser": true,
+      "autoIndex": true,
+      "poolSize": 10,
+      "bufferMaxEntries": 0
+    }
+  },
+  "mysqlDb": {
+    "name": "vox",
+    "host": "127.0.0.1",
+    "username": "vox",
+    "password": "nSJytphxLY477sSQ@123",
+    "dialect": "mysql"
+  },
+  "appConstants": {
+    "WEB_URL": "https://voxcatalog.com/",
+    "StaticFiles": "../../emailTemplates/",
+    "SERVER_URL": "https://backend.voxcatalog.com/",
+    "limit": 20,
+    "Instagram_username": "Voxmarketinggroup",
+    "Instagram_password": "V0xmg2021",
+    "SANMAR_MEDIA_COLOR_SQUARE_IMAGE_URL": "https://cdnl.sanmar.com/swatch/gifs/",
+    "meta_sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "2XL",
+      "3XL",
+      "4XL",
+      "5XL",
+      "LT",
+      "XLT",
+      "2XLT",
+      "3XLT",
+      "4XLT"
+    ]
+  },
+  "smtp": {
+    "smtpServer": "mail.voxmarketinggroup.com",
+    "smtpPort": 587,
+    "smtpUser": "weborders@voxmg.com",
+    "smtpPass": "aTZXN727sq"
+  }
+}
