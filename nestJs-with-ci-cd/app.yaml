@@ -1,0 +1,38 @@
+runtime: nodejs
+env: flex
+env_variables:
+  # slack
+  SLACK_CLIENT_ID: "3533902234100.4041069476067"
+  SLACK_CLIENT_SECRET: 017e7ef48602bdae4696c9751224a0fa
+  SLACK_SIGNING_SECRET: 155cb5ab47e71bad719bf23def7c54ec
+  SLACK_REDIRECT_URL: https://app.getantenna.io/auth/register
+
+  # google
+  GOOGLE_CLIENT_ID: 1051404129315-6a1p49aadptp6s4cg5dejt890i44n6pc.apps.googleusercontent.com
+  GOOGLE_CLIENT_SECRET: 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
+  GOOGLE_REDIRECT_URL_REGISTER: https://app.getantenna.io/auth/register
+  GOOGLE_REDIRECT_URL_LOGIN: https://app.getantenna.io/auth/login
+
+  #stripe
+  STRIPE_SECRET_KEY: sk_test_51LrnSZGlv7bKoIm3s64M4xTM9cO2v7BFMvLLVPsQpjVSVxzHkZM1LHNyr0RSLvpdHSUIppqMMlZv4XsI5rJupEi6007ICfG5xL
+
+  # database
+  DB_HOST: /cloudsql/antenna-322016:us-east4:dev-antenna-environment
+  DB_PORT: 5432
+  DB_USERNAME: dev
+  DB_PASSWORD: dev-password-strong-@1234
+  DB_NAME: dev-antenna-db
+  
+inbound_services:
+  - warmup
+
+manual_scaling:
+  instances: 1
+
+resources:
+  cpu: 1
+  memory_gb: 0.5
+  disk_size_gb: 10
+
+beta_settings:
+  cloud_sql_instances: antenna-322016:us-east4:dev-antenna-environment

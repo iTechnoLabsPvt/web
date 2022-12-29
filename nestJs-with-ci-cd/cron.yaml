@@ -1,0 +1,48 @@
+cron:
+- description: "Weekly calendar metrics"
+  url: /hooks/compute/calendar/weekly
+  schedule: "every monday 00:00"
+  target: "default"
+  retry_parameters:
+    min_backoff_seconds: 2.5
+    max_doublings: 5
+
+- description: "Weekly mail metrics"
+  url: /hooks/compute/mail/weekly
+  schedule: "every monday 00:00"
+  target: "default"
+  retry_parameters:
+    min_backoff_seconds: 2.5
+    max_doublings: 5
+
+- description: "Weekly slack metrics"
+  url: /hooks/compute/slack/weekly
+  schedule: "every monday 00:00"
+  target: "default"
+  retry_parameters:
+    min_backoff_seconds: 2.5
+    max_doublings: 5
+  
+- description: "Past 90 days calendar metrics"
+  url: /hooks/compute/calendar/initial
+  schedule: "every 2 mins"
+  target: "default"
+  retry_parameters:
+    min_backoff_seconds: 2.5
+    max_doublings: 5
+
+- description: "Past 90 days mail metrics"
+  url: /hooks/compute/mail/initial
+  schedule: "every 2 mins"
+  target: "default"
+  retry_parameters:
+    min_backoff_seconds: 2.5
+    max_doublings: 5
+
+- description: "Past 90 days slack metrics"
+  url: /hooks/compute/slack/initial
+  schedule: "every 2 mins"
+  target: "default"
+  retry_parameters:
+    min_backoff_seconds: 2.5
+    max_doublings: 5

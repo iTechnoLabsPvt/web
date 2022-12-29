@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "digio-363209",
+  "private_key_id": "53ba789cbe7c964044c7cca45436de3891479ba1",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDHvX7+6cf8c8qk\nyMUbyaij6bcsfBOySv1oOjrz7ywcHeax1asCsld6s/idlHLA3d7oa+BeIdW8k0xo\nV5juDRFf4C3QvT5XLdb9uSf24c0trPbkopC8qkcisvWm16UnIl8Z3ubYOwXmq93b\np0/uHXlOZ2mNBDifjkIS086x3fY1Mz+8lSI6V7Y4TlbfQcWoum376FIrJ/ID9Tuq\nMG4KimGNEOcnIALDf0Rd7tafIAQG9oAQEaJZWcMqWjbg3+t76+FQiUzNAP+TcJb2\ncDrd1b52V3yrSiuW/VPKwCCL8rIW8DDBWSKan9YMh3fimEySGO29e6hMTYDZL5W+\nMOmLcXH1AgMBAAECggEANoglVmo0J9fjIOcRbVs6l/m0gUgkxn4TvjN7qeKH++sr\n8yxfIn7XRFBDVZ5UUBSjCXh+SqTZKkFa0Hft8DwQHMljKMSp8vo4Yo/8+bm/HzPE\nOjqp4mBoyG/sgk8Ir20CYtlI1AsVOtt8WD5PI7bXShEQr6fR37nijypVmZj8YZxv\nVcEMYF8igz7LXu3MGAgBaPMSh+b8ILAxFWfM11v+OGirrCXPSk0Tq1qZWcIOxTkd\nthVrimbK72geq/UGPdJtPwA4qi3ZTW/i3cxoXaBIVLO5lNBhSkLIUbenNP0e7U8c\nCZ1HsO+KzfpKcEwHNtpXJEUp3pQYwoyjrQ4u8ZvJZwKBgQDjwAidLUHLVf/PN2jo\n/8y9DpjdvfQW31fgDbIAAZwY7zzu4V5H6wo1iNkuE8VjMMjmqehhWzxU45V1k9kX\nqrcjSx2DnedCqbtmEnL78T5QpEKyonGc2pN3k1sV6hYR9ARbFCise6M1gueM2q+e\n0uJJepF5LKdbZdgDSg0DU2HpHwKBgQDghAl8+5R8HaEODTNDv8Tt7asWqzRijjU3\nMJKg9B9ml61hgDfZBNHxmk/flLK/sbsf3eoa7fxGa2jkPTbBWSQLU5k/AlMRrLRO\nhOWDoQ8n/DAZNnAYhE/l1pqL0G+NXaHaFlTy4X8LlITDaWUKcrH7Is+n2SmqKppz\nN50XqYC+awKBgQCViB7fu7goHfXQAoxh9plhQ7VAWZhqcAeNNtC4ylXH1UPHf7bc\nN0jDr28QnrCJmJ0/PS0yxqlM/wPBZ+owbMjDZm0hXkpZbYF52gEew9zrK34TNS6t\nEqGh7+Ds+X22GeXGOu0dmiulVaZbx7Vo7QLfxZa/3X6gNrTmK/dxSIzPdwKBgAoX\npV2K6ZfStSSujzlia3XOkzxHoek0P0wl0NGPZ8Hy24ZgfyIwR0e3ChQg2RAo6yJ5\nlUZ0oDyCI4ru/YEfgrFHpsHgVt+ahdhpvO930/iWK4tWmR9hAz5vsS7Lxdfy942Y\nJ2VroYxhtr4aBMK9eSay3+bJqkfN9ndrbpJbuj/VAoGBAKcT2reIntJaFD2sXYkO\noUS7KY7yyM97Zf7vhKExP4u6aqXkFNTaXqT++IKbCrmu4TtVtrw8VOog0+V7oL76\nfCbPmtUka8M+HC97x3Y+R0sP/MpbXFGLxIY/hZXmxwA/Bk2/EOWiOnhGMEK1FWqc\nuDcE8XPF3rFjGFKly24v3mV1\n-----END PRIVATE KEY-----\n",
+  "client_email": "digiotouch-media@digio-363209.iam.gserviceaccount.com",
+  "client_id": "111813791813996115943",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/digiotouch-media%40digio-363209.iam.gserviceaccount.com"
+}
